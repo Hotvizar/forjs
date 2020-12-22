@@ -62,4 +62,4 @@ function writeYourGenres() {
    showMyDB();
 }
 
-writeYourGenres();
+writeYourGenres(); 
