@@ -64,5 +64,5 @@ function writeYourGenres() {
 
 writeYourGenres();  */
 for(let key in personalMovieDB) {
-   console.log(`Ключь ${key} value ${personalMovieDB[key]}`);
+   console.log(`Ключь ${key} значение ${personalMovieDB[key]}`);
 }
