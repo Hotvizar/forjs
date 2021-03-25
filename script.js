@@ -49,7 +49,7 @@ const personalMovieDB = {
 
 // detecPersonalLevel();
 
-function showMyDB() {
+/* function showMyDB() {
    if(personalMovieDB.privat == false) {
       console.log(personalMovieDB);
    }
@@ -62,4 +62,7 @@ function writeYourGenres() {
    showMyDB();
 }
 
-writeYourGenres(); 
+writeYourGenres();  */
+for(let key in personalMovieDB) {
+   console.log(`Ключь ${key} value ${personalMovieDB[key]}`);
+}
