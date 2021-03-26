@@ -1,6 +1,12 @@
 "use strict"
 
-let numberOfFilms;
+const video = ["youtube", "vimeo", "rutube"],
+      soc = ["vk", "ok", "fb"],
+      all = [...video, ...soc];
+
+      console.log(all);
+
+/* let numberOfFilms; */
 
 // function start() {
 //    numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -12,13 +18,13 @@ let numberOfFilms;
 
 // start();
 
-const personalMovieDB = {
+/* const personalMovieDB = {
    count: numberOfFilms,
    movies: {},
    actors: {},
    genres: [],
    privat: false
-};
+}; */
 
 // function rememberMyFilms() {
 //    for(let i = 0; i < 2; i++) {
@@ -62,7 +68,3 @@ function writeYourGenres() {
    showMyDB();
 }
 
-writeYourGenres();  */
-for(let key in personalMovieDB) {
-   console.log(`Ключь ${key} значение ${personalMovieDB[key]}`);
-}
