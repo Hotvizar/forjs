@@ -4,7 +4,7 @@ const video = ["youtube", "vimeo", "rutube"],
       soc = ["vk", "ok", "fb"],
       all = [...video, ...soc];
 
-      console.log(all);
+      console.log(all); 
 
 /* let numberOfFilms; */
 
